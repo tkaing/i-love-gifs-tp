@@ -1,0 +1,57 @@
+{
+  "name": "My GIFs",
+  "short_name": "My GIFs",
+  "description": "My GIFs",
+  "icons": [
+    {
+      "src": "/assets/images/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }, {
+      "src": "/assets/images/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "/index.html",
+  "background_color": "#FFBF00",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#FFBF00",
+  "shortcuts": [
+    {
+      "name": "My GIFs - Search",
+      "short_name": "My GIFs - Search",
+      "description": "My GIFs - Search",
+      "url": "/search.html",
+      "icons": [
+        {
+          "src": "/assets/images/icon-192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }, {
+          "src": "/assets/images/icon-512x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }, {
+      "name": "My GIFs - Saved",
+      "short_name": "My GIFs - Saved",
+      "description": "My GIFs - Saved",
+      "url": "/saved.html",
+      "icons": [
+        {
+          "src": "/assets/images/icon-192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }, {
+          "src": "/assets/images/icon-512x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
